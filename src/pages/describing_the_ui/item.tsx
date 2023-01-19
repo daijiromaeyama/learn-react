@@ -1,5 +1,5 @@
 export default function Item({ name, isPacked }: { name: string, isPacked: boolean}) {
-  let itemContent = name
+  let itemContent: string | JSX.Element = name
   if (isPacked) {
     itemContent = (
       <del>

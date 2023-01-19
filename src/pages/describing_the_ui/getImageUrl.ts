@@ -1,10 +1,9 @@
 import { Person } from './person'
 
-export function getImageUrl(person: Person, size: string = 's'): string {
+export function getImageUrl(person: Person): string {
   return (
     'https://i.imgur.com/' +
     person.imageId +
-    size +
-    '.jpg'
+    's.jpg'
   )
 }
