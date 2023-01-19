@@ -1,4 +1,12 @@
-const person = {
+type Person = {
+  name: string
+  theme: {
+    backgroundColor: string
+    color: string
+  }
+}
+
+const person: Person = {
   name: 'Gregorio Y. Zara',
   theme: {
     backgroundColor: 'black',
