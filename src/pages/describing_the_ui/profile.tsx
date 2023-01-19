@@ -1,5 +1,5 @@
-import Avatar from "./avatar"
-import Card from "./card"
+import Avatar from './avatar'
+import Card from './card'
 
 export default function Profile(): JSX.Element {
   return (
