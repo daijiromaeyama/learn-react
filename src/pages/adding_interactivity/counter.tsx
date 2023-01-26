@@ -8,12 +8,11 @@ export default function Counter(): JSX.Element {
       <h1>{number}</h1>
       <button onClick={() => {
         setNumber(number + 5)
-        setTimeout(() => {
-          alert(number)
-        }, 3000)
+        setNumber(n => n + 1)
+        setNumber(42)
       }}
       >
-        +5
+        Increse the number
       </button>
     </>
   )
